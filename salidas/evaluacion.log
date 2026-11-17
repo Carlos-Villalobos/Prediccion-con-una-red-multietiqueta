@@ -1,0 +1,38 @@
+           modelo                         salida  positivos_test  auroc  auroc_inf  auroc_sup  auprc  brier  auroc_oof
+mlp_multietiqueta                         Muerte              54  0.886      0.832      0.935  0.666  0.083      0.872
+mlp_multietiqueta          Fibrilación auricular              34  0.607      0.511      0.694  0.152  0.093      0.757
+mlp_multietiqueta        Taquicardia ventricular               8  0.723      0.576      0.860  0.054  0.023      0.774
+mlp_multietiqueta        Fibrilación ventricular              14  0.725      0.619      0.825  0.084  0.040      0.772
+mlp_multietiqueta       Bloqueo AV de 3.er grado              12  0.905      0.833      0.962  0.224  0.031      0.734
+mlp_multietiqueta                 Edema pulmonar              32  0.737      0.648      0.821  0.257  0.079      0.740
+mlp_multietiqueta              Rotura miocárdica              11  0.912      0.855      0.961  0.316  0.027      0.830
+mlp_multietiqueta           Síndrome de Dressler              15  0.640      0.489      0.790  0.111  0.042      0.582
+mlp_multietiqueta Insuficiencia cardíaca crónica              79  0.721      0.653      0.785  0.504  0.152      0.728
+mlp_multietiqueta                      Reinfarto              31  0.547      0.442      0.645  0.106  0.086      0.696
+mlp_multietiqueta             Angina postinfarto              29  0.662      0.565      0.754  0.198  0.076      0.694
+       mlp_muerte                         Muerte              54  0.901      0.856      0.939  0.684  0.081      0.874
+        logistica                         Muerte              54  0.893      0.841      0.938  0.648  0.083      0.854
+        logistica          Fibrilación auricular              34  0.591      0.497      0.682  0.133  0.100      0.776
+        logistica        Taquicardia ventricular               8  0.747      0.604      0.884  0.085  0.023      0.765
+        logistica        Fibrilación ventricular              14  0.715      0.589      0.821  0.085  0.041      0.762
+        logistica       Bloqueo AV de 3.er grado              12  0.886      0.755      0.960  0.226  0.031      0.721
+        logistica                 Edema pulmonar              32  0.780      0.695      0.857  0.273  0.077      0.729
+        logistica              Rotura miocárdica              11  0.905      0.845      0.955  0.220  0.029      0.794
+        logistica           Síndrome de Dressler              15  0.641      0.509      0.766  0.091  0.042      0.599
+        logistica Insuficiencia cardíaca crónica              79  0.718      0.651      0.784  0.517  0.152      0.723
+        logistica                      Reinfarto              31  0.500      0.388      0.615  0.109  0.091      0.702
+        logistica             Angina postinfarto              29  0.658      0.558      0.755  0.221  0.077      0.692
+    salida                 a          b  dif_auroc    inf   sup
+    MUERTE mlp_multietiqueta  logistica     -0.007 -0.022 0.006
+    MUERTE mlp_multietiqueta mlp_muerte     -0.015 -0.034 0.002
+    MUERTE        mlp_muerte  logistica      0.009 -0.009 0.028
+FIBR_PREDS mlp_multietiqueta  logistica      0.016 -0.035 0.067
+ JELUD_TAH mlp_multietiqueta  logistica     -0.024 -0.080 0.027
+FIBR_JELUD mlp_multietiqueta  logistica      0.010 -0.040 0.063
+  A_V_BLOK mlp_multietiqueta  logistica      0.020 -0.026 0.073
+ OTEK_LANC mlp_multietiqueta  logistica     -0.043 -0.089 0.007
+    RAZRIV mlp_multietiqueta  logistica      0.007 -0.040 0.054
+  DRESSLER mlp_multietiqueta  logistica     -0.000 -0.129 0.128
+       ZSN mlp_multietiqueta  logistica      0.003 -0.020 0.027
+    REC_IM mlp_multietiqueta  logistica      0.047 -0.016 0.106
+ P_IM_STEN mlp_multietiqueta  logistica      0.004 -0.037 0.046

@@ -1,0 +1,13 @@
+desarrollo=1360 test=340 entradas=102
+mejor multietiqueta {'ocultas': (128,), 'dropout': 0.4, 'lr': 0.0003, 'weight_decay': 0.001, 'pesado': True, 'lote': 32} 0.7401381355138806
+mejor muerte {'ocultas': (64,), 'dropout': 0.4, 'lr': 0.001, 'weight_decay': 0.1, 'pesado': False, 'lote': 64} 0.8690471551257364
+logística C {'MUERTE': 0.3, 'FIBR_PREDS': 1.0, 'JELUD_TAH': 0.3, 'FIBR_JELUD': 0.3, 'A_V_BLOK': 0.1, 'OTEK_LANC': 0.1, 'RAZRIV': 0.1, 'DRESSLER': 0.001, 'ZSN': 0.1, 'REC_IM': 1.0, 'P_IM_STEN': 1.0}
+                momento  MUERTE
+        ingreso_sin_uci   0.856
+                ingreso   0.872
+ingreso_con_indicadores   0.898
+                    24h   0.874
+                    48h   0.871
+                    72h   0.868
+    72h_con_indicadores   0.922
+listo

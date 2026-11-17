@@ -1,0 +1,28 @@
+{
+  "Perfil_A": {
+    "AGE": 55,
+    "SEX": 1,
+    "INF_ANAM": 0,
+    "ZSN_A": 0,
+    "ant_im": 0,
+    "inf_im": 1,
+    "O_L_POST": 0,
+    "K_SH_POST": 0,
+    "S_AD_ORIT": 130,
+    "D_AD_ORIT": 80,
+    "TIME_B_S": 1
+  },
+  "Perfil_B": {
+    "AGE": 78,
+    "SEX": 0,
+    "INF_ANAM": 2,
+    "ZSN_A": 1,
+    "ant_im": 4,
+    "inf_im": 0,
+    "O_L_POST": 1,
+    "K_SH_POST": 1,
+    "S_AD_ORIT": 85,
+    "D_AD_ORIT": 50,
+    "TIME_B_S": 6
+  }
+}

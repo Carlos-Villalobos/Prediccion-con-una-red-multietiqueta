@@ -1,0 +1,55 @@
+{
+  "semilla": 2026,
+  "n_desarrollo": 1360,
+  "n_test": 340,
+  "config_multietiqueta": {
+    "ocultas": [
+      128
+    ],
+    "dropout": 0.4,
+    "lr": 0.0003,
+    "weight_decay": 0.001,
+    "pesado": true,
+    "lote": 32
+  },
+  "config_muerte": {
+    "ocultas": [
+      64
+    ],
+    "dropout": 0.4,
+    "lr": 0.001,
+    "weight_decay": 0.1,
+    "pesado": false,
+    "lote": 64
+  },
+  "epoca_mediana": 65,
+  "repeticiones_cv": 3,
+  "entradas_finales": 100,
+  "descartadas": [
+    "IBS_NASL",
+    "nr_07",
+    "S_AD_KBRIG",
+    "D_AD_KBRIG",
+    "ritm_ecg_p_06",
+    "KFK_BLOOD"
+  ],
+  "indicadores_ausencia": [],
+  "varianza_pca": [
+    0.16044223308563232,
+    0.11025790125131607
+  ],
+  "C_logistica": {
+    "MUERTE": 0.3,
+    "FIBR_PREDS": 1.0,
+    "JELUD_TAH": 0.3,
+    "FIBR_JELUD": 0.3,
+    "A_V_BLOK": 0.1,
+    "OTEK_LANC": 0.1,
+    "RAZRIV": 0.1,
+    "DRESSLER": 0.001,
+    "ZSN": 0.1,
+    "REC_IM": 1.0,
+    "P_IM_STEN": 1.0
+  },
+  "brier_test_sin_calibrar_media": 0.08004186003791361
+}
